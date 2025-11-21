@@ -1,52 +1,52 @@
 # 📝 Django To-Do App
 
-Bu proje, **Python** ve **Django** framework'ü kullanılarak geliştirilmiş basit ve etkili bir "Yapılacaklar Listesi" (To-Do List) uygulamasıdır. Kullanıcıların günlük görevlerini ekleyebileceği, takip edebileceği ve yönetebileceği bir arayüz sunar.
+This project is a simple and effective **To-Do List** application built using **Python** and the **Django** framework. It allows users to create, manage, and track their daily tasks efficiently.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-* **Görev Ekleme:** Yeni yapılacak maddeleri veritabanına kaydetme.
-* **Listeleme:** Eklenen tüm görevleri görüntüleme.
-* **Tamamlandı İşaretleme:** Yapılan görevlerin durumunu güncelleme.
-* **Silme:** Gereksiz veya bitmiş görevleri listeden kaldırma.
-* **Admin Paneli:** Django admin paneli üzerinden tam kontrol.
+* **Add Tasks:** Create new tasks easily.
+* **List Tasks:** View all pending and completed tasks.
+* **Mark as Completed:** Update task status to track progress.
+* **Delete Tasks:** Remove unwanted or finished tasks.
+* **Admin Panel:** Full control via Django Admin interface.
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
 * **Backend:** Python 3, Django
-* **Veritabanı:** SQLite (Varsayılan)
-* **Frontend:** HTML, CSS (Template yapısı)
+* **Database:** SQLite (Default)
+* **Frontend:** HTML, CSS
 
-## 💻 Kurulum ve Çalıştırma
+## 💻 Installation & Setup
 
-Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+Follow these steps to run the project locally:
 
-1.  **Projeyi klonlayın:**
+1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/MelisaNurHamamci/to_do.git](https://github.com/MelisaNurHamamci/to_do.git)
     ```
 
-2.  **Sanal ortamı kurun ve aktif edin:**
+2.  **Create and activate a virtual environment:**
     ```bash
+    # Windows
     python -m venv venv
-    # Windows için:
     .\venv\Scripts\activate
     ```
 
-3.  **Gereksinimleri yükleyin:**
+3.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Veritabanını oluşturun:**
+4.  **Apply database migrations:**
     ```bash
     python manage.py migrate
     ```
 
-5.  **Sunucuyu başlatın:**
+5.  **Run the server:**
     ```bash
     python manage.py runserver
     ```
 
-Tarayıcınızda `http://127.0.0.1:8000/` adresine giderek uygulamayı görebilirsiniz.
+Visit `http://127.0.0.1:8000/` in your browser to see the application.
 
 ---
