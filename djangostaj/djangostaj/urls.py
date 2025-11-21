@@ -14,15 +14,13 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-# DOSYA: djangostaj/djangostaj/urls.py
 
 from django.contrib import admin
-from django.urls import path, include  # 'include' BURADA olmalı
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     
-    # Ana sayfaya gelen istekleri myCv uygulamasına yönlendir
-    path('', include('myCv.urls')), 
+    path('', include('myCv.urls')),
 ]
 

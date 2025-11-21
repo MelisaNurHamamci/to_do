@@ -3,7 +3,6 @@ from django.http import HttpResponse
 from .models import Todos
 from .forms import ListForm
 
-# Create your views here.
 
 def index(request):
     if request.method =="POST":
